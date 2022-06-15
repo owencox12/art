@@ -47,3 +47,5 @@ logo.addEventListener("click", function(){
     behavior: "smooth"
   })
 })
+
+let test
