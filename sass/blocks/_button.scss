@@ -1,0 +1,62 @@
+.button {
+    &--header {
+        width: 112px;
+        height: 52px;
+        background: #3A68B8;
+        border-radius: 5px;
+        border: none;
+        span {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+    }
+    &--promo {
+        width: 171px;
+        height: 57px;
+        background: #3A68B8;
+        border-radius: 5px;
+        border: none;
+        span {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 27px;
+            color: #FFFFFF;
+        }
+    }
+    &--promoSecond {
+        width: 217px;
+        height: 57px;
+        background: #3A68B8;
+        border-radius: 5px;
+        border: none;
+        span {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 27px;
+            color: #FFFFFF;
+        }
+    }
+    &--about {
+        width: 150px;
+        height: 52px;
+        background: #3A68B8;
+        border-radius: 5px;
+        border: none;
+        span {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+    }
+}

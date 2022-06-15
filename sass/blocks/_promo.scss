@@ -1,0 +1,59 @@
+.promo {
+    padding-bottom: 50px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 150px;
+    }
+    &__item {
+        &_title {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 160%;
+            text-transform: uppercase;
+            color: #3A68B8;
+            padding-top: 100px;
+        }
+        &_image {
+            img {
+                max-width: 100%;
+            }
+        }
+        &_subtitle {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 55px;
+            line-height: 130%;
+            color: #FFFFFF;
+            width: 604px;
+            margin-top: 10px;
+        }
+        &_descr {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 160%;
+            color: rgba(255,255,255,.7);
+            width: 558px;
+            margin-top: 40px;
+        }
+        &_buttons {
+            display: flex;
+            margin-top: 50px;
+            &_button {
+                &:nth-child(2) {
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+    &__sponsors {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 89px;
+    }
+}

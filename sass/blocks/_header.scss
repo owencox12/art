@@ -1,0 +1,58 @@
+.header {
+    min-height: 100px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transition: all .1s;
+    z-index: 1200;
+    &__active {
+        transition: all .3s;
+        background: rgba(0,0,0,1);
+        box-shadow: 0 2px 4px rgb(255 255 255 / 40%);
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 24px;
+    }
+    &__logo {
+        cursor: pointer;
+        span {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22.5455px;
+            line-height: 31px;
+            color: #3A68B8;
+            margin-left: 20px;
+        }
+    }
+    &__burger_list {
+        display: none;
+    }
+    &__item {
+        &_burger {
+            display: none;
+        }
+        &_list {
+            display: flex;
+            &_type {
+                margin: 0 20px;
+                a {
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+            }
+        }
+        &_btn {
+            
+        }
+    }
+}
